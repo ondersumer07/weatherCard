@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html,
+body {
+	@apply h-full overflow-hidden;
+
+	/* Deleting the gradient, if you want it delete the following 2 lines. */
+	@apply bg-surface-50-900-token;
+	background-image: unset !important;
+}
+
+/* Set your custom font if you'd like to */
+@font-face {
+	font-family: 'Inter' !important;
+	src: url('/fonts/Inter-VariableFont_slnt,wght.ttf');
+	font-display: swap;
+}
+
+/* [data-theme='vintage'] is crucial for Skeleton V2.x */
+:root [data-theme='vintage'] {
+	--theme-font-family-heading: 'Inter', sans-serif !important;
+	--theme-font-color-base: 33 33 33;
+}
+
+/* Applied font-weight for titles */
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-weight: 700;
+	font-variant-numeric: lining-nums;
+}
