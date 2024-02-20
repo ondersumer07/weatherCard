@@ -1,4 +1,4 @@
-# A Svelte component for aesthetic weather data
+# weatherCard - A Svelte component for aesthetic weather data
 
 This is a component you can use freely to show others your city's weather data.
 
