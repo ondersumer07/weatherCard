@@ -2,7 +2,7 @@
 
 This is a component you can use freely to show others your city's weather data.
 
-[View Documentation](https://ondersumer.com) . [Report bug](https://github.com/ondersumer07/weatherCard/issues)
+[View Documentation](https://ondersumer.com/quirks/documentation/weatherCard) . [Report bug](https://github.com/ondersumer07/weatherCard/issues)
 
 ## About the project
 ![Rain Demo](https://raw.githubusercontent.com/ondersumer07/weatherCard/master/static/demos/gif/rainDemo.gif)
